@@ -17,25 +17,65 @@
 .navbar .nav-item .active {
    color: #ff014f;
 }
-.navbar .nav-item .nav-link:hover{
+.navbar .nav-item .nav-link:hover {
    color: #ff014f;
 }
 .navbar .navbar-brand {
    color: #fff;
-
 }
 .navbar .navbar-toggler {
    box-shadow: none;
    border: none;
 }
 .navbar .fa-bars {
-   color: #eee;
+   color: #fff;
    font-size: 25px;
 }
-/* hero section */
+/* footer */
+.footer {
+   background-color: #023154;
+}
+.footer .footer-title{
+   font-size: 17px;
+   color: #ff014f;
+   font-weight: 700;
+}
+.footer .footer-about{
+   color: #fff;
+   font-size: 15px;
+}
+.footer .footer-icon {
+   width: 32px;
+   height: 32px;
+   border: 1px solid #d1d0d0;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.footer .footer-icon .fa-brands {
+   color: #fff;
+}
+.footer .footer-icon:hover {
+   background-color: rgba(215, 21, 144, 0.3);
+}
+.footer .nav-link {
+   color: #fff;
+   padding: 4px 0;
+   font-size: 15px;
+}
+.footer .nav-link:hover {
+   text-decoration: underline;
+}
+.footer-bottom {
+   background-color: #023154;
+   font-size: 15px;
+   color: #e1e1e1;
+}
 
-/* media quary section*/
+ /* media quary */
 @media (max-width: 575.98px) {
+   /* navbar */
    .offcanvas {
       width: 65% !important;
    }
