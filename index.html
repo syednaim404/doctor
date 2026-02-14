@@ -10,8 +10,52 @@
       <title>Home</title>
    </head>
    <body>
-      <h1>hello world</h1>
-
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg shadow ">
+         <div class="container">
+            <a class="navbar-brand" href="index.html">Doctor Will Smith</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop">
+               <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a class="nav-link active" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Facility</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Appointment</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- offcanvas navbar start -->
+      <div class="offcanvas offcanvas-start" data-bs-backdrop="static" id="staticBackdrop">
+         <div class="offcanvas-body">
+            <ul class="navbar-nav">
+               <li class="nav-item d-flex justify-content-between">
+                  <a class="nav-link active" href="#">Home</a>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <!-- offcanvas navbar end -->
       <!-- script section -->
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>

@@ -2,4 +2,44 @@
    box-sizing: border-box;
    padding: 0;
    margin: 0;
+   font-family: sans-serif;
+}
+/* navbar section*/
+.navbar {
+   background-color: #023154 !important;
+   padding: 20px;
+}
+.navbar .nav-item .nav-link {
+   color: #fff;
+   font-size: 17px;
+   padding: 8px 12px;
+}
+.navbar .nav-item .active {
+   color: #ff014f;
+}
+.navbar .nav-item .nav-link:hover{
+   color: #ff014f;
+}
+.navbar .navbar-brand {
+   color: #fff;
+
+}
+.navbar .navbar-toggler {
+   box-shadow: none;
+   border: none;
+}
+.navbar .fa-bars {
+   color: #eee;
+   font-size: 25px;
+}
+/* hero section */
+
+/* media quary section*/
+@media (max-width: 575.98px) {
+   .offcanvas {
+      width: 65% !important;
+   }
+   .navbar {
+      padding: 14px;
+   }
 }
