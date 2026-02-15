@@ -5,11 +5,11 @@
 }
 /* navbar */
 .navbar {
-   background-color: #023154 !important;
+   background-color: #EDF8FA !important;
    padding: 20px;
 }
 .navbar .nav-item .nav-link {
-   color: #fff;
+   color: #11141B;
    font-size: 17px;
    padding: 8px 12px;
    font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +21,7 @@
    color: #ff014f;
 }
 .navbar .navbar-brand {
-   color: #fff;
+   color: #11141B;
 }
 .navbar .navbar-toggler {
    box-shadow: none;
@@ -33,7 +33,7 @@
 }
 /* carousel */
 .carousel .carousel-item img {
-   filter: brightness(80%);
+   filter: brightness(90%);
 }
 /* search section  */
 .search-container {
@@ -62,6 +62,44 @@
    font-size: 15px;
    margin-left: -85px;
 }
+/* specialities */
+.specialities{
+   background-color: #EDF8FA; 
+}
+.specialities .card-link{
+   text-decoration: none;
+}
+.specialities .card{
+   max-width: 18rem;
+   /* padding: 40px 30px; */
+}
+.specialities .img-container{
+   width: 100px;
+   height: 100px;
+}
+.specialities .card-img{
+   width: 64px;
+   height: 64px;
+}
+.specialities .card-title{
+   font-size: 18px;
+   color: #1CA288;
+   /* font-weight: 600; */
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.specialities .card-text{
+   font-size: 14px;
+   color: #000;
+
+}
+
+
+
+
+
+
+
+
 /* footer */
 .footer {
    background-color: #11141b;
@@ -126,7 +164,7 @@
       padding: 2px 4px;
       margin-left: -54px;
    }
-   input::placeholder{
+   input::placeholder {
       font-size: 13px;
    }
 }
