@@ -2,9 +2,8 @@
    box-sizing: border-box;
    padding: 0;
    margin: 0;
-   font-family: sans-serif;
 }
-/* navbar section*/
+/* navbar */
 .navbar {
    background-color: #023154 !important;
    padding: 20px;
@@ -13,6 +12,7 @@
    color: #fff;
    font-size: 17px;
    padding: 8px 12px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .navbar .nav-item .active {
    color: #ff014f;
@@ -31,42 +31,36 @@
    color: #fff;
    font-size: 25px;
 }
-/* carousel section  */
-.box {
-   width: 100%;
-  height: 600px;
+/* carousel */
+.carousel .carousel-item img {
+   filter: brightness(80%);
 }
-/* .carousel .carousel-inner .carousel-item img {
-   filter: brightness(70%);
-} */
 /* search section  */
-.search-box {
-   width: 100%;
+.search-container {
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
 }
-.search-box .search-heading {
-   font-size: 36px;
+.search-container .search-heading {
+   font-size: 30px;
    color: #fff;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.search-box .search {
-   width: 465px;
-   height: 44px;
-   padding: 4px 4px 4px 20px;
-   background-color: #fff;
+.search-container .search-box {
+   width: 440px;
+   border: none;
    border-radius: 25px;
-   border: 0;
    outline: none;
+   padding: 9px 0px 9px 25px;
 }
-.search-box .button {
+.search-container .search-btn {
+   border: 0;
+   border-radius: 25px;
+   padding: 8px 20px;
    color: #fff;
    background-color: #0551ac;
-   border-radius: 25px;
-   padding: 8px 16px;
-   font-size: 14px;
-   margin-left: -106px;
-   border: 0;
+   font-size: 15px;
+   margin-left: -85px;
 }
 /* footer */
 .footer {
@@ -94,7 +88,7 @@
    color: #fff;
 }
 .footer .footer-icon:hover {
-   background-color: rgba(215, 21, 144, 0.3);
+   background-color: #242f3c;
 }
 .footer .nav-link {
    color: #bdbdbd;
@@ -109,7 +103,6 @@
    font-size: 15px;
    color: #bdbdbd;
 }
-
 /* media quary */
 @media (max-width: 575.98px) {
    /* navbar */
@@ -120,18 +113,34 @@
       padding: 14px;
    }
 }
-
-@media screen and (max-width: 767px) {
-   /* search section  */
-   .search-box .search-heading {
-      font-size: 22px;
+@media (min-width: 344px) and (max-width: 575.98px) {
+   /* search section  small device*/
+   .search-container .search-heading {
+      font-size: 18px;
    }
-   .search-box .search {
-      width: 280px;
+   .search-container .search-box {
+      width: 250px;
+      padding: 4px 0px 4px 20px;
    }
-   .search-box .button {
-      margin-left: -58px;
+   .search-container .search-btn {
+      padding: 2px 4px;
+      margin-left: -54px;
+   }
+   input::placeholder{
+      font-size: 13px;
    }
 }
-
-
+@media (min-width: 576px) and (max-width: 767.98px) {
+   /* search section  medium device*/
+   .search-container .search-heading {
+      font-size: 25px;
+   }
+   .search-container .search-box {
+      width: 300px;
+      padding: 7px 0px 7px 15px;
+   }
+   .search-container .search-btn {
+      padding: 5px 12px;
+      margin-left: -70px;
+   }
+}

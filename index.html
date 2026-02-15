@@ -11,7 +11,7 @@
    </head>
    <body>
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg sticky-top">
+      <nav class="navbar navbar-expand-lg sticky-top shadow">
          <div class="container">
             <a class="navbar-brand" href="index.html">Doctor Will Smith</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop">
@@ -41,49 +41,40 @@
             </div>
          </div>
       </nav>
+
       <!-- carousel section  -->
       <section class="position-relative">
-         <div
-            class="carousel slide"
-            data-bs-ride="carousel"
-            data-bs-interval="3000"
-            data-bs-pause="false"
-         >
-            <div class="carousel-inner" style="height: auto">
+         <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
+            <div class="carousel-inner">
                <div class="carousel-item active">
-                  <img src="assets/img/sl1.jpg" class="d-block w-100 img-fluid" />
-                  
+                  <img src="assets/img/carousel1.jpg" class="d-block w-100 img-fluid" />
                </div>
                <div class="carousel-item">
-                  <img src="assets/img/sl2.jpg" class="d-block w-100 img-fluid" />
-                 
+                  <img src="assets/img/carousel2.jpg" class="d-block w-100 img-fluid" />
                </div>
                <div class="carousel-item">
-                  <img src="assets/img/sl3.jpg" class="d-block w-100 img-fluid" />
-                 
+                  <img src="assets/img/carousel3.jpg" class="d-block w-100 img-fluid" />
+               </div>
+               <div class="carousel-item">
+                  <img src="assets/img/carousel4.jpg" class="d-block w-100 img-fluid" />
+               </div>
+               <div class="carousel-item">
+                  <img src="assets/img/carousel5.jpg" class="d-block w-100 img-fluid" />
+               </div>
+               <div class="carousel-item">
+                  <img src="assets/img/carousel6.jpg" class="d-block w-100 img-fluid" />
                </div>
             </div>
          </div>
-         <div class="search-box position-absolute">
-            <div class="container">
-               <div class="text-center text-md-start">
-                  <h1 class="search-heading">Find Your Preferred Info</h1>
-                  <form action="">
-                     <input type="text" placeholder="Search by Course Name" class="search" />
-                     <button type="button" class="button">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <span class="d-none d-md-inline-block">Search</span>
-                     </button>
-                  </form>
-               </div>
-            </div>
-         </div> 
+         <!-- search -->
+         <div class="container position-absolute search-container">
+            <h1 class="search-heading ps-2">Find Your Preferred Info</h1>
+            <form action="" class="d-flex align-items-center">
+               <input type="text" placeholder="Search what you need" class="search-box shadow" />
+               <button type="button" class="search-btn d-flex align-items-center shadow">Search</button>
+            </form>
+         </div>
       </section>
-
-
-            
-       
-     
 
       <!-- foote -->
       <footer class="py-5 footer">
@@ -186,8 +177,6 @@
             </ul>
          </div>
       </div>
-
-      <!-- offcanvas navbar end -->
       <!-- script section -->
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>
