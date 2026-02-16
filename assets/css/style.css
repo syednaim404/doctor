@@ -9,7 +9,7 @@
    padding: 20px;
 }
 .navbar .nav-item .nav-link {
-   color: #11141B;
+   color: #164193;
    font-size: 17px;
    padding: 8px 12px;
    font-family: Arial, Helvetica, sans-serif;
@@ -21,14 +21,15 @@
    color: #ff014f;
 }
 .navbar .navbar-brand {
-   color: #11141B;
+   color: #164193;
+   font-weight: 700;
 }
 .navbar .navbar-toggler {
    box-shadow: none;
    border: none;
 }
 .navbar .fa-bars {
-   color: #fff;
+   color: #151a24;
    font-size: 25px;
 }
 /* carousel */
@@ -42,7 +43,7 @@
    transform: translate(-50%, -50%);
 }
 .search-container .search-heading {
-   font-size: 30px;
+   font-size: 38px;
    color: #fff;
    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -51,7 +52,7 @@
    border: none;
    border-radius: 25px;
    outline: none;
-   padding: 9px 0px 9px 25px;
+   padding: 10px 0px 10px 25px;
 }
 .search-container .search-btn {
    border: 0;
@@ -62,35 +63,56 @@
    font-size: 15px;
    margin-left: -85px;
 }
-/* specialities */
-.specialities{
+/* section title section */
+.section-title {
+   color: #164193;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 800;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.small-title {
+   text-transform: uppercase;
+   color: #1CA288;
+   font-size: 16px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   letter-spacing: 6px;
+}
+
+/* services */
+.services{
    background-color: #EDF8FA; 
 }
-.specialities .card-link{
+.services .card-link{
    text-decoration: none;
 }
-.specialities .card{
+.services .card{
    max-width: 18rem;
    /* padding: 40px 30px; */
 }
-.specialities .img-container{
+.services .img-container{
    width: 100px;
    height: 100px;
 }
-.specialities .card-img{
+.services .card-img{
    width: 64px;
    height: 64px;
 }
-.specialities .card-title{
+.services .card-title{
    font-size: 18px;
    color: #1CA288;
    /* font-weight: 600; */
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-.specialities .card-text{
+.services .card-text{
    font-size: 14px;
    color: #000;
-
+}
+.line-clamp {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
 }
 
 
@@ -150,6 +172,13 @@
    .navbar {
       padding: 14px;
    }
+   .section-title {
+ 
+
+   font-size: 30px;
+  
+   }
+   
 }
 @media (min-width: 344px) and (max-width: 575.98px) {
    /* search section  small device*/
