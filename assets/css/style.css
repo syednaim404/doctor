@@ -9,29 +9,44 @@
    padding: 20px;
 }
 .navbar .nav-item .nav-link {
-   color: #164193;
+   color: #11141b;
    font-size: 17px;
    padding: 8px 12px;
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: 500;
+   font-family: "Roboto", sans-serif;
+   /* font-weight: 500; */
 }
 .navbar .nav-item .active {
-   color: #ff014f;
+   color: #00b092;
 }
 .navbar .nav-item .nav-link:hover {
-   color: #ff014f;
+   color: #00b092;
 }
 .navbar .navbar-brand {
    color: #164193;
    font-weight: 700;
+}
+.navbar .navbar-brand:active {
+   transform: scale(0.95);
+}
+/* navbar-brand shadow */
+#demotext {
+   color: transparent;
+   background: #666666;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   background-clip: text;
+   text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
 }
 .navbar .navbar-toggler {
    box-shadow: none;
    border: none;
 }
 .navbar .fa-bars {
-   color: #151a24;
+   color: #151a24c0;
    font-size: 25px;
+}
+.navbar .fa-bars:active {
+   transform: scale(0.88);
 }
 /* carousel */
 .carousel .carousel-item img {
@@ -58,11 +73,15 @@
 .search-container .search-btn {
    border: 0;
    border-radius: 25px;
-   padding: 6px 20px;
+   padding: 6px 14px;
    color: #fff;
    background-color: #0551ac;
    font-size: 15px;
-   margin-left: -108px;
+   margin-left: -96px;
+}
+/* about */
+.about {
+  background-color: #fff;
 }
 /* section title section */
 .section-title {
@@ -79,12 +98,15 @@
    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
    letter-spacing: 6px;
 }
-
 /* services */
 .services {
    background-color: #edf8fa;
 }
-.services .card-link {
+.services .col {
+   display: flex;
+   justify-content: center;
+}
+.card-link {
    text-decoration: none;
 }
 .services .card {
@@ -114,6 +136,32 @@
    display: -webkit-box;
    -webkit-box-orient: vertical;
    -webkit-line-clamp: 5;
+}
+/* recent posts */
+.recent-post {
+   background-color: #fff;
+}
+.recent-post .col {
+   display: flex;
+   justify-content: center;
+}
+.recent-post img {
+   max-width: 400px;
+   max-height: 336px;
+}
+.recent-post .card {
+   background-color: #fff;
+}
+.recent-post .card .card-title a {
+   color: #1ca288;
+   font-size: 24px;
+   font-family: sans-serif;
+   font-weight: 600;
+}
+.recent-post .card .card-text {
+   font-size: 14px;
+   color: #626262;
+   line-height: 1.8;
 }
 
 /* footer */
@@ -173,7 +221,7 @@
 @media (min-width: 344px) and (max-width: 575.98px) {
    /* search section  small device*/
    .search-container .search-heading {
-      font-size: 21px;
+      font-size: 18px;
    }
    .search-container .search-box {
       width: 250px;
@@ -190,7 +238,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
    /* search section  medium device*/
    .search-container .search-heading {
-      font-size: 26px;
+      font-size: 22px;
    }
    .search-container .search-box {
       width: 300px;

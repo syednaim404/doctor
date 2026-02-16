@@ -11,9 +11,9 @@
    </head>
    <body>
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg sticky-top">
+      <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
          <div class="container">
-            <a class="navbar-brand" href="index.html">Doctor Will Smith</a>
+            <a class="navbar-brand" href="index.html" id="demotext">Dr. Will Smith</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop">
                <i class="fa-solid fa-bars"></i>
             </button>
@@ -44,7 +44,7 @@
 
       <!-- carousel section  -->
       <section class="position-relative">
-         <div class="carousel slide shadow-sm" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
+         <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
             <div class="carousel-inner">
                <div class="carousel-item active">
                   <img src="assets/img/carousel1.jpg" class="d-block w-100 img-fluid" />
@@ -74,25 +74,46 @@
                <button type="button" class="search-btn d-flex align-items-center shadow">
                   <span class="d-md-none"><i class="fa-solid fa-magnifying-glass"></i></span>
                   <span class="d-none d-md-block"
-                     ><span style="font-size: 13px;"><i class="fa-solid fa-magnifying-glass"></i></span> Search</span
+                     ><span style="font-size: 13px"><i class="fa-solid fa-magnifying-glass"></i></span> Search</span
                   >
                </button>
             </form>
          </div>
       </section>
 
-      <!-- services -->
-      <section class="py-5 services">
-         <div class="container py-lg-5">
+      <!-- about -->
+       <section class="py-5 about">
+         <div class="container">
             <div class="row">
                <div class="col-12">
                   <div class="title-container mb-5 text-center">
-                     <h1 class="section-title">The Services We Provide</h1>
+                     <h1 class="section-title">About Me</h1>
                      <p class="small-title">Section</p>
                   </div>
                </div>
             </div>
-            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2 g-lg-4 mx-auto">
+            <div class="row">
+               <div class="col">
+                  <div class="card card-body">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, earum aliquid ea animi accusamus officia hic. Eligendi quas ipsum nesciunt, provident atque molestias fugiat aliquam. Vel debitis quaerat nesciunt quis reiciendis quam illo fugiat maxime, corporis numquam, dolorum eligendi dolore.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+       </section>
+
+      <!-- services -->
+      <section class="py-5 services">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="title-container mb-5 text-center">
+                     <h1 class="section-title">Services For You</h1>
+                     <p class="small-title">Section</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2 g-lg-4">
                <!-- card-1  -->
                <div class="col">
                   <a href="#" class="card-link">
@@ -328,6 +349,74 @@
                         </div>
                      </div>
                   </a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- recent posts -->
+      <section class="py-5 recent-post">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="title-container mb-5 text-center">
+                     <h1 class="section-title">Recent Posts</h1>
+                     <p class="small-title">Section</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-auto">
+               <!-- card-1 -->
+               <div class="col">
+                  <div class="card border-0 h-100" style="max-width: 400px">
+                     <a href="" class="card-link"
+                        ><img src="assets/img/dengue.jpg" class="card-img-top card-img-bottom"
+                     /></a>
+                     <div class="card-body py-4 px-1">
+                        <p class="card-text"><small class="text-body-secondary">September 11, 2025</small></p>
+                        <h5 class="card-title mb-3"><a href="" class="card-link">Dengue</a></h5>
+                        <p class="card-text mb-2 line-clamp">
+                           There are different opinions about where the name "dengue" came from. It is thought that the
+                           name might come from the Swahili phrase "ka-dinga pepo." Another idea is that the Swahi.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- card-2 -->
+               <div class="col">
+                  <div class="card border-0 h-100" style="max-width: 400px">
+                     <a href="" class="card-link"
+                        ><img src="assets/img/medicines.jpg" class="card-img-top card-img-bottom"
+                     /></a>
+                     <div class="card-body py-4 px-1">
+                        <p class="card-text"><small class="text-body-secondary">September 11, 2025</small></p>
+                        <h5 class="card-title mb-3">
+                           <a href="" class="card-link">Blending Tradition with Technology</a>
+                        </h5>
+                        <p class="card-text mb-2 line-clamp">
+                           ntroduction In the realm of medicine, the juxtaposition of traditional knowledge and modern
+                           technology is creating a new paradigm in healthcare. The modern doctor's office, equipped
+                           with both medica
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- card-3 -->
+               <div class="col">
+                  <div class="card border-0 h-100" style="max-width: 400px">
+                     <a href="#" class="card-link"
+                        ><img src="assets/img/mpox.jpg" class="card-img-top card-img-bottom"
+                     /></a>
+                     <div class="card-body py-4 px-1">
+                        <p class="card-text"><small class="text-body-secondary">February 17, 2026</small></p>
+                        <h5 class="card-title mb-3"><a href="#" class="card-link">Mpox</a></h5>
+                        <p class="card-text mb-2 line-clamp">
+                           Although Mpox (Monkeypox) belongs to the same family of viruses as smallpox, it is generally
+                           much less harmful. The virus was first identified in a type of monkey in 1958, which is why
+                           it was original.
+                        </p>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>

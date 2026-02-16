@@ -1,0 +1,216 @@
+ <!-- card-2  -->
+               <div class="col">
+                  <a href="#" class="card-link">
+                     <div class="card h-100 text-center rounded-0 border-0 shadow px-lg-4 pb-2 pb-lg-5 pt-lg-4">
+                        <div class="card-body">
+                           <div class="img-container mx-auto d-flex justify-content-center align-items-center">
+                              <img
+                                 src="assets/img/general-practitioner.png"
+                                 class="card-img d-flex justify-content-center align-items-center d-block"
+                              />
+                           </div>
+                           <h5 class="card-title">General Practitioner</h5>
+                           <p class="card-text line-clamp">
+                              Medical services, such as conducting physical examinations, creating treatment plans and
+                              giving general health advice to individuals in local communities.
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- card-3  -->
+               <div class="col">
+                  <a href="#" class="card-link">
+                     <div class="card h-100 text-center rounded-0 border-0 shadow px-lg-4 pb-2 pb-lg-5 pt-lg-4">
+                        <div class="card-body">
+                           <div class="img-container mx-auto d-flex justify-content-center align-items-center">
+                              <img
+                                 src="assets/img/cardiologist.png"
+                                 class="card-img d-flex justify-content-center align-items-center d-block"
+                              />
+                           </div>
+                           <h5 class="card-title">Cardiologist</h5>
+                           <p class="card-text line-clamp">
+                              Diagnosis and treatment of disorders and diseases of the cardiovascular system.
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- card-4  -->
+               <div class="col">
+                  <a href="#" class="card-link">
+                     <div class="card h-100 text-center rounded-0 border-0 shadow px-lg-4 pb-2 pb-lg-5 pt-lg-4">
+                        <div class="card-body">
+                           <div class="img-container mx-auto d-flex justify-content-center align-items-center">
+                              <img
+                                 src="assets/img/obstetrician.png"
+                                 class="card-img d-flex justify-content-center align-items-center d-block"
+                              />
+                           </div>
+                           <h5 class="card-title">Obstetrician</h5>
+                           <p class="card-text line-clamp">
+                              Care for women during pregnancy, advice, and performing tests such as ultrasounds and
+                              fetal heart rate monitoring.
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- card-5  -->
+               <div class="col">
+                  <a href="#" class="card-link">
+                     <div class="card h-100 text-center rounded-0 border-0 shadow px-lg-4 pb-2 pb-lg-5 pt-lg-4">
+                        <div class="card-body">
+                           <div class="img-container mx-auto d-flex justify-content-center align-items-center">
+                              <img
+                                 src="assets/img/gynecologist.png"
+                                 class="card-img d-flex justify-content-center align-items-center d-block"
+                              />
+                           </div>
+                           <h5 class="card-title">Gynecologist</h5>
+                           <p class="card-text line-clamp">
+                              Diagnosis, treatment, and aid in preventing diseases of women, particularly those
+                              affecting the reproductive system.
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- card-6  -->
+               <div class="col">
+                  <a href="#" class="card-link">
+                     <div class="card h-100 text-center rounded-0 border-0 shadow px-lg-4 pb-2 pb-lg-5 pt-lg-4">
+                        <div class="card-body">
+                           <div class="img-container mx-auto d-flex justify-content-center align-items-center">
+                              <img
+                                 src="assets/img/nephrologist.png"
+                                 class="card-img d-flex justify-content-center align-items-center d-block"
+                              />
+                           </div>
+                           <h5 class="card-title">Nephrologist</h5>
+                           <p class="card-text line-clamp">
+                              Treatment of diseases and disorders that affect the kidneys, urinary system, or kidneys.
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- card-7  -->
+               <div class="col">
+                  <a href="#" class="card-link">
+                     <div class="card h-100 text-center rounded-0 border-0 shadow px-lg-4 pb-2 pb-lg-5 pt-lg-4">
+                        <div class="card-body">
+                           <div class="img-container mx-auto d-flex justify-content-center align-items-center">
+                              <img
+                                 src="assets/img/respiratory-chest.png"
+                                 class="card-img d-flex justify-content-center align-items-center d-block"
+                              />
+                           </div>
+                           <h5 class="card-title">Respiratory & Chest</h5>
+                           <p class="card-text line-clamp">
+                              Diagnosis and treatment of diseases of the respiratory system.
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- card-8  -->
+               <div class="col">
+                  <a href="#" class="card-link">
+                     <div class="card h-100 text-center rounded-0 border-0 shadow px-lg-4 pb-2 pb-lg-5 pt-lg-4">
+                        <div class="card-body">
+                           <div class="img-container mx-auto d-flex justify-content-center align-items-center">
+                              <img
+                                 src="assets/img/gastrologist.png"
+                                 class="card-img d-flex justify-content-center align-items-center d-block"
+                              />
+                           </div>
+                           <h5 class="card-title">Gastrologist</h5>
+                           <p class="card-text line-clamp">
+                              Treatment of conditions of the digestive system including the gastrointestinal tract and
+                              liver.
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- card-9  -->
+               <div class="col">
+                  <a href="#" class="card-link">
+                     <div class="card h-100 text-center rounded-0 border-0 shadow px-lg-4 pb-2 pb-lg-5 pt-lg-4">
+                        <div class="card-body">
+                           <div class="img-container mx-auto d-flex justify-content-center align-items-center">
+                              <img
+                                 src="assets/img/otorhinolaryngology.png"
+                                 class="card-img d-flex justify-content-center align-items-center d-block"
+                              />
+                           </div>
+                           <h5 class="card-title">ENT</h5>
+                           <p class="card-text line-clamp">
+                              Category description - Otorhinolaryngology also known as ENT (Ear, Nose and Throat). Deals
+                              with the surgical and medical management of conditions of the head and neck
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- card-10  -->
+               <div class="col">
+                  <a href="#" class="card-link">
+                     <div class="card h-100 text-center rounded-0 border-0 shadow px-lg-4 pb-2 pb-lg-5 pt-lg-4">
+                        <div class="card-body">
+                           <div class="img-container mx-auto d-flex justify-content-center align-items-center">
+                              <img
+                                 src="assets/img/urologist.png"
+                                 class="card-img d-flex justify-content-center align-items-center d-block"
+                              />
+                           </div>
+                           <h5 class="card-title">Urologist</h5>
+                           <p class="card-text line-clamp">
+                              Investigation, treatment, and aid to manage conditions relating to the bladder, urethra
+                              and prostate, and male reproductive organs. Gastroenterologist Gastroenterologist 14
+                              Treatment of conditions of the digestive system including the
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- card-11  -->
+               <div class="col">
+                  <a href="#" class="card-link">
+                     <div class="card h-100 text-center rounded-0 border-0 shadow px-lg-4 pb-2 pb-lg-5 pt-lg-4">
+                        <div class="card-body">
+                           <div class="img-container mx-auto d-flex justify-content-center align-items-center">
+                              <img
+                                 src="assets/img/anesthesiologist.png"
+                                 class="card-img d-flex justify-content-center align-items-center d-block"
+                              />
+                           </div>
+                           <h5 class="card-title">Anesthesia</h5>
+                           <p class="card-text line-clamp">
+                              Anesthesia care, pain management, and critical care medicine.
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- card-12  -->
+               <div class="col">
+                  <a href="#" class="card-link">
+                     <div class="card h-100 text-center rounded-0 border-0 shadow px-lg-4 pb-2 pb-lg-5 pt-lg-4">
+                        <div class="card-body">
+                           <div class="img-container mx-auto d-flex justify-content-center align-items-center">
+                              <img
+                                 src="assets/img/neurologist.png"
+                                 class="card-img d-flex justify-content-center align-items-center d-block"
+                              />
+                           </div>
+                           <h5 class="card-title">Neurologist</h5>
+                           <p class="card-text line-clamp">
+                              Diagnosis and treatment of disorders of the brain, spinal cord, and nervous system.
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
