@@ -88,7 +88,7 @@
    font-size: 38px;
    font-weight: 700;
    font-family: sans-serif;
-   line-height: 0.9;
+   line-height: 1;
 }
 .home-about .fa-check {
    color: #164193;
@@ -120,7 +120,42 @@
 .button:hover {
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
+/* .regular scedule section */
+.regular-scedule .nav-link {
+   color: #1e2125;
+   font-size: 18px;
+}
+.regular-scedule .nav-pills .card:active {
+   transform: scale(0.95);
+}
+.regular-scedule .nav-pills .active {
+   color: #00b092;
+   background-color: #fff !important;
+}
+.regular-scedule .tab-content{
+   border-radius: 6px;
+}
+.regular-scedule .tab-content .consultant {
+   font-size: 16px;
+   color: #3c3e41;
+}
+.regular-scedule .tab-content .medical {
+   font-size: 36px;
+   color: #3c3e41;
+}
+.regular-scedule .tab-content i {
+   color: 3c3e41;
+   font-size: 16px;
+   margin-right: 8px;
+}
+.regular-scedule .tab-content .contact-info {
+   font-size: 16px;
+   color: #3c3e41;
+   margin: 8px 0;
+}
+.regular-scedule .medical-img {
+   width: 100%;
+}
 /* section title section */
 .section-title {
    color: #164193;
@@ -257,6 +292,24 @@
    }
    .home-about .home-about-title {
       font-size: 30px;
+   }
+   .regular-scedule .medical-img {
+      width: 100%;
+   }
+   .regular-scedule .tab-content .medical {
+      font-size: 20px;
+   }
+ .regular-scedule .tab-content .contact-info{
+   font-size: 12px;
+ }
+
+
+
+
+}
+@media (min-width: 992px) {
+   .regular-scedule .medical-img {
+      width: 90%;
    }
 }
 @media (min-width: 344px) and (max-width: 575.98px) {
