@@ -79,7 +79,7 @@
    font-size: 15px;
    margin-left: -96px;
 }
-/* about */
+/* home about */
 .home-about {
    background-color: #edf8fa;
 }
@@ -132,7 +132,7 @@
    color: #00b092;
    background-color: #fff !important;
 }
-.regular-scedule .tab-content{
+.regular-scedule .tab-content {
    border-radius: 6px;
 }
 .regular-scedule .tab-content .consultant {
@@ -278,6 +278,75 @@
    font-size: 15px;
    color: #bdbdbd;
 }
+
+/* ============ about page ============== */
+.about {
+   background-color: #edf8fa;
+}
+.about .about-content h2 {
+   color: #164193;
+   font-size: 40px;
+   font-weight: 700;
+}
+.about .about-content h3 {
+   color: #3e5276;
+   font-size: 22px;
+}
+.about .about-content p {
+   color: #29313f;
+   font-size: 16px;
+   line-height: 1.5;
+}
+.about img {
+   width: 75%;
+}
+.about .about-image {
+   border: 0;
+   border-radius: 0;
+   background-color: #edf8fa;
+}
+
+.information .biography .bio-img-container {
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+}
+.bio-img-container img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 50%;
+}
+.information .biography h5{
+   color: #00b092;
+}
+.information .biography p{
+   color: #6a6a67;
+   font-size: 16px;
+}
+.information .education .i, .experience .i{
+   color: green;
+}
+.information .education h5, .experience h5{
+   color:#00b093;
+}
+.information .education p, .experience p{
+   color:#6a6a67;
+   font-size: 16px;
+}
+.information .fa-angle-right{
+   margin-right: 5px;
+}
+.information .achievement h5{
+   color: #00b092;
+}
+.information .achievement p{
+   color: #6a6a67;
+   font-size: 16px;
+   line-height: 1.5;
+}
+
+
 /* media quary */
 @media (max-width: 575.98px) {
    /* navbar */
@@ -293,19 +362,22 @@
    .home-about .home-about-title {
       font-size: 30px;
    }
+   .about .about-content h2 {
+      font-size: 30px;
+      font-weight: 600;
+   }
+   .about .about-content h3 {
+      font-size: 18px;
+   }
    .regular-scedule .medical-img {
       width: 100%;
    }
    .regular-scedule .tab-content .medical {
       font-size: 20px;
    }
- .regular-scedule .tab-content .contact-info{
-   font-size: 12px;
- }
-
-
-
-
+   .regular-scedule .tab-content .contact-info {
+      font-size: 12px;
+   }
 }
 @media (min-width: 992px) {
    .regular-scedule .medical-img {
