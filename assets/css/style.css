@@ -401,6 +401,42 @@
       font-size: 25px;
    }
 }
+/* ============ contact page ============== */
+.contact {
+   background-color: #EDF8FA;
+}
+.contact .get-touch{
+   color: #00b093;
+   font-weight: 700;
+}
+.contact input{
+   padding: 14px;
+   border: none;
+}
+.contact input::placeholder{
+   font-size: 16px;
+}
+.contact .icon-container{
+   width: 60px;
+   height: 60px;
+   /* border-radius: 50%; */
+}
+.contact .address-section img{
+   width: 80%;
+   height: 80%;
+   object-fit: cover;
+}
+.contact .address-section .card-title{
+   color: #00b093;
+}
+.contact .address-section .card-text{
+   color: #626262;
+   font-size: 16px;
+}
+
+
+
+
 @media (min-width: 992px) {
    .regular-scedule .medical-img {
       width: 90%;
