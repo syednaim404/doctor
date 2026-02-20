@@ -3,12 +3,12 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
       <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
       <link rel="stylesheet" href="assets/css/style.css" />
-      <title>Appointment</title>
+      <title>Appointment | Good Health Is Always Our Priority</title>
    </head>
    <body>
       <!-- navbar  -->
@@ -39,7 +39,7 @@
             </div>
          </div>
       </nav>
-      <!-- offcanvas navbar start -->
+      <!-- offcanvas section -->
       <div class="offcanvas offcanvas-start" data-bs-backdrop="static" id="staticBackdrop">
          <div class="offcanvas-body">
             <ul class="navbar-nav">
@@ -63,16 +63,18 @@
             </ul>
          </div>
       </div>
-      <section class="py-5 all-section-title">
+
+      <!-- page title section -->
+      <section class="py-5 page-title">
          <div class="container py-lg-5">
             <div class="row">
                <div class="col">
-                  <div class="card text-center border-0 mx-auto">
+                  <div class="title-content mx-auto text-center">
                      <h2 class="card-title mb-3">Appointment</h2>
                      <p class="card-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati facilis consequuntur
-                        possimus doloremque ea, sint maiores quas debitis fuga dolore animi delectus ducimus itaque
-                        voluptatibus aspernatur officiis asperiores illum ullam?
+                        Torem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam vitae error culpa quae
+                        quas omnis delectus. Cum aperiam quasi non? Tenetur aperiam, natus tempora quasi accusantium in
+                        at aliquam.
                      </p>
                   </div>
                </div>
@@ -81,7 +83,7 @@
       </section>
 
       <!-- appointment section  -->
-      <section class="py-5 regular-scedule">
+      <section class="py-5 appointment">
          <div class="container">
             <ul class="nav nav-pills row row-cols-2 row-cols-md-4 g-1 g-md-2 g-lg-4">
                <li class="col">
@@ -105,9 +107,7 @@
                   </div>
                </li>
             </ul>
-
-            <!-- tab-content start -->
-
+            <!-- tab content start -->
             <div class="tab-content shadow mt-5">
                <!-- option-1  -->
                <div class="tab-pane fade show active" id="link-1">
@@ -115,27 +115,40 @@
                      <div class="col-12 col-lg-7 align-self-center">
                         <div class="card card-body rounded-0 border-0 ps-lg-5">
                            <p class="consultant">Consultant About Ortology</p>
-                           <h1 class="medical">Medical Diagnosis Treatment</h1>
-                           <p class="contact-info">
-                              <i class="fa-solid fa-location-dot"></i>Address:
-                              <span style="font-weight: 700">Google Out Tech - (2017 - Present)</span>
-                           </p>
-                           <p class="contact-info">
-                              <i class="fa-regular fa-calendar"></i>Working Days:
-                              <span style="font-weight: 700">Monday, Wednesday, Saturday</span>
-                           </p>
-                           <p class="contact-info">
-                              <i class="fa-regular fa-clock"></i>Visiting Hour:
-                              <span style="font-weight: 700">9am - 4pm</span>
-                           </p>
-                           <p class="contact-info">
-                              <i class="fa-solid fa-phone"></i>Contact No:
-                              <span style="font-weight: 700">+44 0015454500</span>
-                           </p>
+                           <h1 class="medical mb-3">Medical Diagnosis Treatment</h1>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-solid fa-location-dot me-2"></i></p>
+                                 <p>Address:</p>
+                              </div>
+                              <p style="font-weight: 600">Google Out Tech - (2017 - Present)</p>
+                           </div>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-regular fa-clock me-2"></i></p>
+                                 <p>Working Days:</p>
+                              </div>
+                              <p style="font-weight: 600">Monday, Wednesday, Saturday</p>
+                           </div>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-regular fa-clock me-2"></i></p>
+                                 <p>Visiting Hour:</p>
+                              </div>
+                              <p style="font-weight: 600">9am - 4pm</p>
+                           </div>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-solid fa-phone me-2"></i></p>
+                                 <p>Contact No:</p>
+                              </div>
+                              <p style="font-weight: 600">+44 0015454500</p>
+                           </div>
                            <hr class="my-2" />
-                           <p class="contact-info">
-                              <i class="fa-solid fa-arrow-right"></i>Call For Appointment (+670188557766)
-                           </p>
+                           <div class="d-flex me-2 contact-info">
+                              <p><i class="fa-solid fa-arrow-right me-2"></i></p>
+                              <p>Call For Appointment (+670188557766)</p>
+                           </div>
                         </div>
                      </div>
                      <div class="col-12 col-lg-5 align-self-center">
@@ -152,26 +165,39 @@
                         <div class="card card-body rounded-0 border-0">
                            <p class="consultant">Consultant About Ortology</p>
                            <h1 class="medical">Medical Diagnosis Treatment</h1>
-                           <p class="contact-info">
-                              <i class="fa-solid fa-location-dot"></i>Address:
-                              <span style="font-weight: 700">Google Out Tech - (2017 - Present)</span>
-                           </p>
-                           <p class="contact-info">
-                              <i class="fa-regular fa-calendar"></i>Working Days:
-                              <span style="font-weight: 700">Monday, Wednesday, Saturday</span>
-                           </p>
-                           <p class="contact-info">
-                              <i class="fa-regular fa-clock"></i>Visiting Hour:
-                              <span style="font-weight: 700">9am - 4pm</span>
-                           </p>
-                           <p class="contact-info">
-                              <i class="fa-solid fa-phone"></i>Contact No:
-                              <span style="font-weight: 700">+44 0015454500</span>
-                           </p>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-solid fa-location-dot me-2"></i></p>
+                                 <p>Address:</p>
+                              </div>
+                              <p style="font-weight: 600">Google Out Tech - (2017 - Present)</p>
+                           </div>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-regular fa-calendar me-2"></i></p>
+                                 <p>Working Days:</p>
+                              </div>
+                              <p style="font-weight: 600">Monday, Wednesday, Saturday</p>
+                           </div>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-regular fa-clock me-2"></i></p>
+                                 <p>Visiting Hour:</p>
+                              </div>
+                              <p style="font-weight: 600">9am - 4pm</p>
+                           </div>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-solid fa-phone me-2"></i></p>
+                                 <p>Contact No:</p>
+                              </div>
+                              <p style="font-weight: 600">+44 0015454500</p>
+                           </div>
                            <hr class="my-2" />
-                           <p class="contact-info">
-                              <i class="fa-solid fa-arrow-right"></i>Call For Appointment (+670188557766)
-                           </p>
+                           <div class="d-flex me-2 contact-info">
+                              <p><i class="fa-solid fa-arrow-right me-2"></i></p>
+                              <p>Call For Appointment (+670188557766)</p>
+                           </div>
                         </div>
                      </div>
                      <div class="col-12 col-lg-5 align-self-center">
@@ -188,26 +214,39 @@
                         <div class="card card-body rounded-0 border-0 ps-lg-5">
                            <p class="consultant">Consultant About Ortology</p>
                            <h1 class="medical">Medical Diagnosis Treatment</h1>
-                           <p class="contact-info">
-                              <i class="fa-solid fa-location-dot"></i>Address:
-                              <span style="font-weight: 700">Google Out Tech - (2017 - Present)</span>
-                           </p>
-                           <p class="contact-info">
-                              <i class="fa-regular fa-calendar"></i>Working Days:
-                              <span style="font-weight: 700">Monday, Wednesday, Saturday</span>
-                           </p>
-                           <p class="contact-info">
-                              <i class="fa-regular fa-clock"></i>Visiting Hour:
-                              <span style="font-weight: 700">9am - 4pm</span>
-                           </p>
-                           <p class="contact-info">
-                              <i class="fa-solid fa-phone"></i>Contact No:
-                              <span style="font-weight: 700">+44 0015454500</span>
-                           </p>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-solid fa-location-dot me-2"></i></p>
+                                 <p>Address:</p>
+                              </div>
+                              <p style="font-weight: 600">Google Out Tech - (2017 - Present)</p>
+                           </div>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-regular fa-calendar me-2"></i></p>
+                                 <p>Working Days:</p>
+                              </div>
+                              <p style="font-weight: 600">Monday, Wednesday, Saturday</p>
+                           </div>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-regular fa-clock me-2"></i></p>
+                                 <p>Visiting Hour:</p>
+                              </div>
+                              <p style="font-weight: 600">9am - 4pm</p>
+                           </div>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-solid fa-phone me-2"></i></p>
+                                 <p>Contact No:</p>
+                              </div>
+                              <p style="font-weight: 600">+44 0015454500</p>
+                           </div>
                            <hr class="my-2" />
-                           <p class="contact-info">
-                              <i class="fa-solid fa-arrow-right"></i>Call For Appointment (+670188557766)
-                           </p>
+                           <div class="d-flex me-2 contact-info">
+                              <p><i class="fa-solid fa-arrow-right me-2"></i></p>
+                              <p>Call For Appointment (+670188557766)</p>
+                           </div>
                         </div>
                      </div>
                      <div class="col-12 col-lg-5 align-self-center">
@@ -224,26 +263,39 @@
                         <div class="card card-body rounded-0 border-0">
                            <p class="consultant">Consultant About Ortology</p>
                            <h1 class="medical">Medical Diagnosis Treatment</h1>
-                           <p class="contact-info">
-                              <i class="fa-solid fa-location-dot"></i>Address:
-                              <span style="font-weight: 700">Google Out Tech - (2017 - Present)</span>
-                           </p>
-                           <p class="contact-info">
-                              <i class="fa-regular fa-calendar"></i>Working Days:
-                              <span style="font-weight: 700">Monday, Wednesday, Saturday</span>
-                           </p>
-                           <p class="contact-info">
-                              <i class="fa-regular fa-clock"></i>Visiting Hour:
-                              <span style="font-weight: 700">9am - 4pm</span>
-                           </p>
-                           <p class="contact-info">
-                              <i class="fa-solid fa-phone"></i>Contact No:
-                              <span style="font-weight: 700">+44 0015454500</span>
-                           </p>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-solid fa-location-dot me-2"></i></p>
+                                 <p>Address:</p>
+                              </div>
+                              <p style="font-weight: 600">Google Out Tech - (2017 - Present)</p>
+                           </div>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-regular fa-calendar me-2"></i></p>
+                                 <p>Working Days:</p>
+                              </div>
+                              <p style="font-weight: 600">Monday, Wednesday, Saturday</p>
+                           </div>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-regular fa-clock me-2"></i></p>
+                                 <p>Visiting Hour:</p>
+                              </div>
+                              <p style="font-weight: 600">9am - 4pm</p>
+                           </div>
+                           <div class="d-flex contact-info">
+                              <div class="d-flex me-2">
+                                 <p><i class="fa-solid fa-phone me-2"></i></p>
+                                 <p>Contact No:</p>
+                              </div>
+                              <p style="font-weight: 600">+44 0015454500</p>
+                           </div>
                            <hr class="my-2" />
-                           <p class="contact-info">
-                              <i class="fa-solid fa-arrow-right"></i>Call For Appointment (+670188557766)
-                           </p>
+                           <div class="d-flex me-2 contact-info">
+                              <p><i class="fa-solid fa-arrow-right me-2"></i></p>
+                              <p>Call For Appointment (+670188557766)</p>
+                           </div>
                         </div>
                      </div>
                      <div class="col-12 col-lg-5 align-self-center">
@@ -256,7 +308,8 @@
             </div>
          </div>
       </section>
-      <!-- foote -->
+
+      <!-- foote section -->
       <footer class="py-5 footer">
          <div class="container py-lg-5">
             <div class="row">
@@ -290,7 +343,6 @@
                         <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-
                         <li class="nav-item"><a href="appointment.html" class="nav-link">Appointment</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                      </ul>
@@ -333,6 +385,7 @@
             </div>
          </div>
       </footer>
+      <!-- copyright section -->
       <footer class="footer-bottom">
          <div class="container">
             <div class="row">
@@ -343,6 +396,7 @@
             </div>
          </div>
       </footer>
+
       <!-- script section -->
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>

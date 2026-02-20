@@ -3,9 +3,38 @@
    padding: 0;
    margin: 0;
 }
+/*========== pase title ==========*/
+.page-title {
+   background-color: #00b092;
+}
+.page-title .card-title {
+   font-size: 40px;
+   color: #fff;
+   line-height: 1;
+}
+.page-title .card-text {
+   font-size: 16px;
+   color: #fff;
+   line-height: 1.8;
+}
+/*========== button ==========*/
+.button {
+   border: none;
+   background-color: #00b092;
+   color: #fff;
+   padding: 10px 30px;
+   border-radius: 5px;
+   letter-spacing: 1px;
+   font-size: 15px;
+   text-decoration: none;
+}
+.button:hover {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 /* navbar */
 .navbar {
-   background-color: #edf8fa !important;
+   background-color: #fff !important;
    padding: 20px;
 }
 .navbar .nav-item .nav-link {
@@ -107,53 +136,37 @@
 .home-about img {
    width: 75%;
 }
-.button {
-   border: none;
-   background-color: #00b092;
-   color: #fff;
-   padding: 10px 30px;
-   border-radius: 5px;
-   letter-spacing: 1px;
-   font-size: 15px;
-   text-decoration: none;
-}
-.button:hover {
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-/* .regular scedule section */
-.regular-scedule .nav-link {
+
+/* appointment scedule section */
+.appointment .nav-link {
    color: #1e2125;
    font-size: 18px;
 }
-.regular-scedule .nav-pills .card:active {
+.appointment .nav-pills .card:active {
    transform: scale(0.95);
 }
-.regular-scedule .nav-pills .active {
+.appointment .nav-pills .active {
    color: #00b092;
    background-color: #fff !important;
 }
-.regular-scedule .tab-content {
+.appointment .tab-content {
    border-radius: 6px;
 }
-.regular-scedule .tab-content .consultant {
+.appointment .tab-content .consultant {
    font-size: 16px;
    color: #3c3e41;
 }
-.regular-scedule .tab-content .medical {
+.appointment .tab-content .medical {
    font-size: 36px;
    color: #3c3e41;
 }
-.regular-scedule .tab-content i {
-   color: 3c3e41;
-   font-size: 16px;
-   margin-right: 8px;
-}
-.regular-scedule .tab-content .contact-info {
+
+.appointment .tab-content .contact-info {
    font-size: 16px;
    color: #3c3e41;
-   margin: 8px 0;
+   margin: 6px 0;
 }
-.regular-scedule .medical-img {
+.appointment .medical-img {
    width: 100%;
 }
 /* section title section */
@@ -166,16 +179,15 @@
 }
 .small-title {
    text-transform: uppercase;
-   color: #1ca288;
+   color: #00b092;
    font-size: 16px;
-   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
    letter-spacing: 6px;
 }
-/* services */
+/* services section*/
 .services {
    background-color: #edf8fa;
 }
-.services .col {
+.services .services-col {
    display: flex;
    justify-content: center;
 }
@@ -184,7 +196,6 @@
 }
 .services .card {
    max-width: 18rem;
-   /* padding: 40px 30px; */
 }
 .services .img-container {
    width: 100px;
@@ -196,13 +207,12 @@
 }
 .services .card-title {
    font-size: 18px;
-   color: #1ca288;
-   /* font-weight: 600; */
-   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+   color: #00b092;
 }
 .services .card-text {
    font-size: 14px;
-   color: #000;
+   color: #222;
+   font-family: sans-serif;
 }
 .line-clamp {
    overflow: hidden;
@@ -226,7 +236,7 @@
    background-color: #fff;
 }
 .recent-post .card .card-title a {
-   color: #1ca288;
+   color: #00b092;
    font-size: 24px;
    font-family: sans-serif;
    font-weight: 600;
@@ -263,7 +273,7 @@
    color: #fff;
 }
 .footer .footer-icon:hover {
-   background-color: #00b093;
+   background-color: #00b092;
 }
 .footer .nav-link {
    color: #bdbdbd;
@@ -329,7 +339,7 @@
 }
 .information .education h5,
 .experience h5 {
-   color: #00b093;
+   color: #00b092;
 }
 .information .education p,
 .experience p {
@@ -348,33 +358,50 @@
    line-height: 1.5;
 }
 
-/* ============ services page ============== */
-.all-section-title {
-   background-color: #00b092
+/*========== contact section ==========*/
+.contact .get-touch {
+   color: #00b092;
+   font-weight: 700;
 }
-.all-section-title .card {
-   background-color: #00b092;
+.contact input {
+   padding: 14px;
+   border: none;
 }
-.all-section-title .card-title {
-   font-size: 40px;
-   color: #fff;
-   font-weight: bold;
-   line-height: 1;
+.contact .icon-container {
+   width: 60px;
+   height: 60px;
 }
-.all-section-title .card-text {
+.contact textarea::placeholder {
    font-size: 16px;
-   color: #fff;
-   line-height: 1.8;
 }
-/* media quary */
+.contact .address-section img {
+   width: 80%;
+   height: 80%;
+   object-fit: cover;
+}
+.contact .address-section .card-title {
+   color: #00b092;
+}
+.contact .address-section .card-text {
+   color: #626262;
+   font-size: 16px;
+}
+
+/* ========== media quary section =========== */
+
 @media (max-width: 575.98px) {
+   /* page title */
+   .page-title .card-title {
+      font-size: 30px;
+   }
    /* navbar */
    .offcanvas {
       width: 65% !important;
    }
    .navbar {
       padding: 14px;
-   }
+   } 
+   /* section title  */
    .section-title {
       font-size: 30px;
    }
@@ -388,61 +415,26 @@
    .about .about-content h3 {
       font-size: 18px;
    }
-   .regular-scedule .medical-img {
-      width: 100%;
-   }
-   .regular-scedule .tab-content .medical {
+   /* .appointment */
+   .appointment .tab-content .medical {
       font-size: 20px;
    }
-   .regular-scedule .tab-content .contact-info {
-      font-size: 12px;
+   .appointment .tab-content .contact-info {
+      font-size: 14px;
    }
-   .all-section-title.card-title {
-      font-size: 25px;
+   .appointment .medical-img {
+      width: 100%;
    }
 }
-/* ============ contact page ============== */
-.contact {
-   background-color: #EDF8FA;
-}
-.contact .get-touch{
-   color: #00b093;
-   font-weight: 700;
-}
-.contact input{
-   padding: 14px;
-   border: none;
-}
-.contact input::placeholder{
-   font-size: 16px;
-}
-.contact .icon-container{
-   width: 60px;
-   height: 60px;
-   /* border-radius: 50%; */
-}
-.contact .address-section img{
-   width: 80%;
-   height: 80%;
-   object-fit: cover;
-}
-.contact .address-section .card-title{
-   color: #00b093;
-}
-.contact .address-section .card-text{
-   color: #626262;
-   font-size: 16px;
-}
-
-
-
 
 @media (min-width: 992px) {
-   .regular-scedule .medical-img {
+   /* appointment */
+   .appointment .medical-img {
       width: 90%;
    }
-   .all-section-title .card {
-      width: 80%;
+   /* page title */
+   .page-title .title-content {
+      width: 75%;
    }
 }
 @media (min-width: 344px) and (max-width: 575.98px) {
@@ -458,8 +450,8 @@
       padding: 2px 10px;
       margin-left: -42px;
    }
-   input::placeholder {
-      font-size: 13px;
+ .search-container input::placeholder {
+      font-size: 14px;
    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
