@@ -17,6 +17,21 @@
    color: #fff;
    line-height: 1.8;
 }
+/*=========== section title =========== */
+.section-title .card-title {
+   font-size: 40px;
+   color: #164193;
+   line-height: 1;
+   margin-bottom: 12px;
+}
+.section-title .card-text {
+   font-size: 16px;
+   color: #00b092;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-family: sans-serif;
+}
+
 /*========== button ==========*/
 .button {
    border: none;
@@ -110,7 +125,7 @@
 }
 /* home about */
 .home-about {
-   background-color: #edf8fa;
+   background-color: #00b092;
 }
 .home-about .home-about-title {
    color: #164193;
@@ -169,20 +184,7 @@
 .appointment .medical-img {
    width: 100%;
 }
-/* section title section */
-.section-title {
-   color: #164193;
-   text-align: center;
-   font-size: 40px;
-   font-weight: 700;
-   font-family: sans-serif;
-}
-.small-title {
-   text-transform: uppercase;
-   color: #00b092;
-   font-size: 16px;
-   letter-spacing: 6px;
-}
+
 /* services section*/
 .services {
    background-color: #edf8fa;
@@ -289,32 +291,60 @@
    color: #bdbdbd;
 }
 
-/* ============ about page ============== */
+/* ============ about section ============== */
 .about {
-   background-color: #edf8fa;
+   background-color: #f2fafb;
 }
-.about .about-content h2 {
+.about .about-content .card-title {
    color: #00b092;
    font-size: 40px;
-   font-weight: 700;
+   font-weight: 600;
 }
+
 .about .about-content h3 {
    color: #2a5953;
    font-size: 20px;
 }
-.about .about-content p {
+.about .about-content .card-text {
    color: #29313f;
    font-size: 16px;
    line-height: 1.5;
+   font-family: sans-serif;
 }
-.about img {
-   width: 75%;
+.about .about-image-contain {
+   background-color: #f2fafb;
 }
-.about .about-image {
-   border: 0;
-   border-radius: 0;
-   background-color: #edf8fa;
+.about .about-image-contain .about-poster {
+   width: 70%;
 }
+
+.info .img-container {
+   width: 84px;
+   height: 84px;
+}
+.info .img-container img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.info .card-title {
+   font-size: 20px;
+   color: #00b092;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+.info .card-text {
+   font-size: 16px;
+   color: #626262;
+}
+.info i {
+   font-size: 16px;
+   color: #626262;
+}
+.info .card {
+   border: 1px solid #ebebeb;
+}
+
 .information .biography .bio-img-container {
    width: 250px;
    height: 250px;
@@ -326,37 +356,7 @@
    object-fit: cover;
    border-radius: 50%;
 }
-.information .biography h5 {
-   color: #00b092;
-}
-.information .biography p {
-   color: #6a6a67;
-   font-size: 16px;
-}
-.information .education .i,
-.experience .i {
-   color: green;
-}
-.information .education h5,
-.experience h5 {
-   color: #00b092;
-}
-.information .education p,
-.experience p {
-   color: #6a6a67;
-   font-size: 16px;
-}
-.information .fa-angle-right {
-   margin-right: 5px;
-}
-.information .achievement h5 {
-   color: #00b092;
-}
-.information .achievement p {
-   color: #6a6a67;
-   font-size: 16px;
-   line-height: 1.5;
-}
+
 
 /*========== contact section ==========*/
 .contact .get-touch {
@@ -386,6 +386,9 @@
    color: #626262;
    font-size: 16px;
 }
+.address-container {
+   border: 1px solid #ededed;
+}
 
 /* ========== media quary section =========== */
 
@@ -394,17 +397,22 @@
    .page-title .card-title {
       font-size: 30px;
    }
+   /* section title */
+   .section-title .card-title {
+      font-size: 30px;
+   }
+   /* about section */
+   .about .about-content .card-title {
+      font-size: 25px;
+   }
    /* navbar */
    .offcanvas {
       width: 65% !important;
    }
    .navbar {
       padding: 14px;
-   } 
-   /* section title  */
-   .section-title {
-      font-size: 30px;
    }
+
    .home-about .home-about-title {
       font-size: 30px;
    }
@@ -450,7 +458,7 @@
       padding: 2px 10px;
       margin-left: -42px;
    }
- .search-container input::placeholder {
+   .search-container input::placeholder {
       font-size: 14px;
    }
 }

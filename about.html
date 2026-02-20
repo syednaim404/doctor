@@ -3,12 +3,12 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
       <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
       <link rel="stylesheet" href="assets/css/style.css" />
-      <title>About</title>
+      <title>About | You Come Rright Place</title>
    </head>
    <body>
       <!-- navbar  -->
@@ -29,7 +29,7 @@
                   <li class="nav-item">
                      <a class="nav-link" href="services.html">Services</a>
                   </li>
-                  
+
                   <li class="nav-item">
                      <a class="nav-link" href="appointment.html">Appointment</a>
                   </li>
@@ -54,7 +54,7 @@
                <li class="nav-item">
                   <a class="nav-link" href="services.html">Services</a>
                </li>
-               
+
                <li class="nav-item">
                   <a class="nav-link" href="appointment.html">Appointment</a>
                </li>
@@ -71,17 +71,26 @@
             <div class="row flex-row-reverse">
                <div class="col-12 col-lg-6 align-self-center">
                   <div class="about-content">
-                     <h2>Dr. Will Smith</h2>
+                     <h2 class="card-title">Hi, I'm <span style="color: #ff014dc7;">Dr. will smith</span></h2>
+                     <h2
+                        class="typewrite card-title"
+                        data-period="2000"
+                        data-type='[ "Eye Sergeon Specialist.", "Eye Consultant."]'
+                     >
+                        <span class="wrap"></span>
+                     </h2>
+
+
                      <h3 class="mt-lg-4 mt-2 mb-lg-3">DGO, MBBS</h3>
-                     <p>
-                        Dr. Ajanta debi graduated from Mymensingh Medical college joined at Bangladesh civil service by
+                     <p class="card-text">
+                        Dr. will smith graduated from Mymensingh Medical college joined at Bangladesh civil service by
                         38 BCS. Now posted at Upozila health complex, Sreemangal, Moulvibazar.
                      </p>
                   </div>
                </div>
                <div class="col-12 col-lg-6">
-                  <div class="card about-image">
-                     <img src="assets/img/about.png" class="mx-auto" />
+                  <div class="card about-image-contain border-0 rounded-0">
+                     <img src="assets/img/about.png" class="mx-auto about-poster" />
                   </div>
                </div>
             </div>
@@ -89,131 +98,90 @@
       </section>
 
       <!-- biography section  -->
-      <section class="py-5 bg-white information">
+      <section class="py-5 info">
          <div class="container">
-            <div class="row g-4 g-lg-5">
-               <div class="col-12">
-                  <div class="card biography py-4 py-lg-5 border-0 shadow">
-                     <div class="row">
-                        <div class="col-md-12 col-lg-4">
-                           <div class="card bio-img-container mx-auto">
-                              <img src="assets/img/doctor-photo.jpg" class="p-2" />
-                           </div>
+            <div class="row g-4">
+               <!-- card- 1  -->
+               <div class="col-12 col-lg-6">
+                  <div class="card card-body h-100">
+                     <div class="img-container">
+                        <img src="assets/img/biography.png" />
+                     </div>
+                     <div class="content">
+                        <h5 class="card-title my-3">Biography</h5>
+                        <p class="card-text">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis facere aperiam iste?
+                           Similique, delectus ipsam eligendi nulla quam, obcaecati iure enim odit facere illum
+                           voluptatem. Aut cum optio quod enim?
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- card 2  -->
+               <div class="col-12 col-lg-6">
+                  <div class="card card-body h-100">
+                     <div class="img-container">
+                        <img src="assets/img/experience.png" />
+                     </div>
+                     <div class="content">
+                        <h5 class="card-title my-3">EXPERIENCE</h5>
+                        <div class="d-flex my-1">
+                           <p class="me-2 m-0"><i class="fa-solid fa-angle-right"></i></p>
+                           <p class="card-text m-0">Mymensingh of health and family welfare</p>
                         </div>
-                        <div class="col-md-12 col-lg-8 align-self-center">
-                           <div class="card-body mt-2 mt-lg-0">
-                              <h5 class="card-title">BIOGRAPHY</h5>
-                              <p class="card-text">
-                                 This is a wider card with supporting text below as a natural lead-in to additional
-                                 content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur
-                                 adipisicing elit. Nemo molestias aspernatur temporibus ducimus debitis. Itaque aut ut
-                                 tempora iusto tenetur.
-                              </p>
-                              <p class="card-text">
-                                 <small class="text-body-secondary">Last updated 3 mins ago</small>
-                              </p>
-                           </div>
+                        <div class="d-flex my-1">
+                           <p class="me-2 m-0"><i class="fa-solid fa-angle-right"></i></p>
+                           <p class="card-text m-0">Assistant surgeon 10 years</p>
+                        </div>
+                        <div class="d-flex my-1">
+                           <p class="me-2 m-0"><i class="fa-solid fa-angle-right"></i></p>
+                           <p class="card-text m-0">
+                              Consulting patient, raise conciousness among people as per governments order
+                           </p>
                         </div>
                      </div>
                   </div>
                </div>
-               <div class="col-12 col-md-6">
-                  <div class="card card-body h-100 py-4 p-lg-5 education border-0 shadow">
-                     <h5 class="card-title">EDUCATION</h5>
-                     <p class="card-text d-flex">
-                        <span><i class="fa-solid fa-angle-right"></i></span>
-                        <span>DGO(Gyne & Obs)</span>
-                     </p>
-                     <p class="card-text d-flex">
-                        <span><i class="fa-solid fa-angle-right"></i></span>
-                        <span>MBBS, Mymensingh Medical college, 2013</span>
-                     </p>
-                  </div>
-               </div>
-
-               <div class="col-12 col-md-6">
-                  <div class="card card-body h-100 py-4 p-lg-5 experience border-0 shadow">
-                     <h5 class="card-title mb-3">EXPERIENCE</h5>
-
-                     <p class="card-text d-flex">
-                        <span><i class="fa-solid fa-angle-right"></i></span>
-                        <span> Mymensingh of health and family welfare</span>
-                     </p>
-                     <p class="card-text d-flex">
-                        <span><i class="fa-solid fa-angle-right"></i></span>
-                        <span>Assistant surgeon 10 years</span>
-                     </p>
-                     <p class="card-text d-flex">
-                        <span><i class="fa-solid fa-angle-right"></i></span>
-                        <span>Consulting patient, raise conciousness among people as per governments order</span>
-                     </p>
-                  </div>
-               </div>
-               <div class="col-12">
-                  <div class="card pb-lg-5 achi achievement border-0 shadow">
-                     <div class="row">
-                        <div class="col-md-8 align-self-center">
-                           <div class="card-body py-4 py-md-2 py-lg-0 ps-lg-5">
-                              <h5 class="card-title mb-3">ACHIEVEMENT</h5>
-                              <p class="card-text">
-                                 This is a wider card with supporting text below as a natural lead-in to additional
-                                 content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur
-                                 adipisicing elit. Nemo molestias aspernatur temporibus ducimus debitis. Itaque aut ut
-                                 tempora iusto tenetur.
-                              </p>
-                              <p class="card-text">
-                                 <small class="text-body-secondary">Last updated 3 mins ago</small>
-                              </p>
-                           </div>
+               <!-- card 3  -->
+               <div class="col-12 col-lg-6">
+                  <div class="card card-body h-100">
+                     <div class="img-container">
+                        <img src="assets/img/education.png" />
+                     </div>
+                     <div class="content">
+                        <h5 class="card-title my-3">EDUCATION</h5>
+                        <div class="d-flex my-1">
+                           <p class="me-2 m-0"><i class="fa-solid fa-angle-right"></i></p>
+                           <p class="card-text m-0">DGO(Gyne & Obs)</p>
                         </div>
-
-                        <div class="col-md-4 text-center pb-4">
-                           <img src="assets/img/achievement.png" class="w-50" alt="..." />
+                        <div class="d-flex my-1">
+                           <p class="me-2 m-0"><i class="fa-solid fa-angle-right"></i></p>
+                           <p class="card-text m-0">MBBS, Mymensingh Medical college, 2013</p>
                         </div>
                      </div>
                   </div>
                </div>
-               <!-- contact section  -->
-               <!-- <div class="col-12 col-xl-7 regular-scedule">
-                  <div class="card card-body tab-content border-0 px-lg-5 shadow">
-                     <p class="consultant">Consultant About Ortology</p>
-                     <h1 class="medical">Medical Diagnosis Treatment</h1>
-                     <p class="contact-info">
-                        <i class="fa-solid fa-location-dot"></i>Address:
-                        <span style="font-weight: 700">Google Out Tech - (2017 - Present)</span>
-                     </p>
-                     <p class="contact-info">
-                        <i class="fa-regular fa-calendar"></i>Working Days:
-                        <span style="font-weight: 700">Monday, Wednesday, Saturday</span>
-                     </p>
-                     <p class="contact-info">
-                        <i class="fa-regular fa-clock"></i>Visiting Hour:
-                        <span style="font-weight: 700">9am - 4pm</span>
-                     </p>
-                     <p class="contact-info">
-                        <i class="fa-solid fa-phone"></i>Contact No:
-                        <span style="font-weight: 700">+44 0015454500</span>
-                     </p>
-                     <hr class="my-2" />
-                     <p class="contact-info">
-                        <i class="fa-solid fa-arrow-right"></i>Call For Appointment (+670188557766)
-                     </p>
+               <!-- card 4  -->
+               <div class="col-12 col-lg-6">
+                  <div class="card card-body h-100">
+                     <div class="img-container">
+                        <img src="assets/img/achievement.png" />
+                     </div>
+                     <div class="content">
+                        <h5 class="card-title my-3">ACHIEVEMENT</h5>
+                        <p class="card-text">
+                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quia tenetur inventore
+                           distinctio fugiat maxime expedita velit deleniti eum, non iure sit ut repellat, molestias
+                           provident commodi.
+                        </p>
+                     </div>
                   </div>
                </div>
-               <div class="col-lg-5 d-none d-xl-block align-self-center">
-                  <iframe
-                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20657.16995624221!2d90.39701941720082!3d23.757852783202967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1771495459761!5m2!1sen!2sbd"
-                     style="width: 100%; height: 340px"
-                     allowfullscreen=""
-                     loading="lazy"
-                     referrerpolicy="no-referrer-when-downgrade"
-                  ></iframe>
-               </div> -->
             </div>
          </div>
       </section>
 
-      <!-- foote -->
+      <!-- foote section-->
       <footer class="py-5 footer">
          <div class="container py-lg-5">
             <div class="row">
@@ -247,7 +215,7 @@
                         <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                       
+
                         <li class="nav-item"><a href="appointment.html" class="nav-link">Appointment</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                      </ul>
